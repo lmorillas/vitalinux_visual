@@ -5,7 +5,7 @@ import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'migasfree.settings'
 
 from migasfree.server.models import Property
-import datos_ordena
+from datos_ordena import busca_datos
 
 
 def ordenadores_centro():
