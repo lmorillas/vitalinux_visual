@@ -7,21 +7,11 @@ BUSCADOS = 'memory processor disk'.split()
 
 
 def busca_datos(co):
-    datos = [{'id': co.id}]
-    for hw in co.hwnode_set.all():
-        if hw.classname in BUSCADOS:
-            _tmp =  muestra(hw)
-            if _tmp and None not in _tmp.values(): datos.append(_tmp)
+    datos = {'id': co.id}
+    datos{'memoria':  c.hwnode_set.filter(classname='memory').aggregate(Max('size')).get('size__max')}
+    datos{'procesador'}:  c.hwnode_set.filter(classname='processor')
+    datos{'disco'}:  [x.size for x in  c.hwnode_set.filter(classname='disk') if x.size ]
     return datos
-
-def muestra(hw):
-    if hw.classname=='memory':
-        if "Placa" in hw.parent.description:
-            return  {'memoria': hw.size}
-    if hw.classname=='processor':
-        return  {'procesador': hw.product}
-    if hw.classname=='disk':
-        return  {'disco': hw.size}
 
 
 if __name__ ==  '__main__':
