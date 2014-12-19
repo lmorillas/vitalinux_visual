@@ -18,7 +18,7 @@ def muestra(hw):
     if hw.classname=='processor':
         return  {'procesador': hw.product}
     if hw.classname=='disk':
-        return  {'procesador': hw.size}
+        return  {'disco': hw.size}
 
 
 
