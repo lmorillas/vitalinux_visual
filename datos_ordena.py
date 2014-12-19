@@ -7,9 +7,12 @@ BUSCADOS = 'memory processor disk'.split()
 
 
 def busca_datos(co):
+    datos = [{'id': co.id}]
     for hw in co.hwnode_set.all():
         if hw.classname in BUSCADOS:
-            yield muestra(hw)
+            _tmp =  muestra(hw)
+            if _tmp: datos.append(_tmp)
+    return datos
 
 def muestra(hw):
     if hw.classname=='memory':
