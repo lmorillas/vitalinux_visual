@@ -5,7 +5,6 @@ from migasfree.server.models import Computer
 
 BUSCADOS = 'memory processor disk'.split()
 
-c = Computer.objects.get(pk=68)
 
 def busca_datos(co):
     for hw in co.hwnode_set.all():
@@ -21,5 +20,6 @@ def muestra(hw):
         return  {'disco': hw.size}
 
 
-
-print list(busca_datos(c))
+if __name__ ==  '__main__':
+    c = Computer.objects.get(pk=68)
+    print list(busca_datos(c))

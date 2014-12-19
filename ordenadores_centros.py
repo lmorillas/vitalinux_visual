@@ -5,6 +5,7 @@ import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'migasfree.settings'
 
 from migasfree.server.models import Property
+import datos_ordena
 
 
 def ordenadores_centro():
@@ -22,3 +23,12 @@ def ordenadores_centro():
     return datos
 
 datos = ordenadores_centro()
+
+listado =  {}
+
+for d in datos:
+    ordenadores = datos.get(d)
+    listado[d] =  [busca_datos(o) for o in ordenadores]
+
+
+
