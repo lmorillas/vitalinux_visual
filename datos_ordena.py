@@ -11,12 +11,13 @@ def busca_datos(co):
     for hw in co.hwnode_set.all():
         if hw.classname in BUSCADOS:
             _tmp =  muestra(hw)
-            if _tmp: datos.append(_tmp)
+            if _tmp and None not in _tmp.values(): datos.append(_tmp)
     return datos
 
 def muestra(hw):
     if hw.classname=='memory':
-        return  {'memoria': hw.size}
+        if "Placa" in hw.parent.description:
+            return  {'memoria': hw.size}
     if hw.classname=='processor':
         return  {'procesador': hw.product}
     if hw.classname=='disk':
