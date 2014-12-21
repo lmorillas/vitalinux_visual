@@ -1,10 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <title>Centros Vitalinux</title>
-    <link href="vitalinux.json" type="application/json" rel="exhibit-data" />
+    <link href="vitalinux2.json" type="application/json" rel="exhibit-data" />
 
     <!-- Replace the URL here with your Exhibit 3.0 script location -->
     <!-- Latest compiled and minified CSS -->
@@ -26,7 +26,7 @@
         font-size: smaller;
         text-transform: lowercase;
     }
-    .exhibit-facet-value{
+    .exhibit-facet-value {
         font-size: smaller;
     }
     </style>
@@ -37,7 +37,7 @@
     <!-- COLECCIONES -->
     <div data-ex-role="collection" data-ex-item-types="centro" id="col_centros"></div>
     <div data-ex-role="collection" data-ex-item-types="ord" id="col_ords">
-    <!--<div data-ex-role="collection" data-ex-item-types="Competencia" id="col_competencias">-->
+        <!--<div data-ex-role="collection" data-ex-item-types="Competencia" id="col_competencias">-->
     </div>
 
 
@@ -59,36 +59,28 @@
             <div class="col-md-2">
 
 
-                <div data-ex-role="coder" data-ex-coder-class="Color" id="tipocentro_color" style="display: none" data-ex-collection-i-d="col_centros">
-                    <span data-ex-color="#11aaaa">Público</span>
-                    <span data-ex-color="#6688ee">Privado</span>
-                    <span data-ex-color="#6688ee">Concertado</span>
+                <div data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar por centro" data-ex-collection-i-d="col_ords"></div>
+
+                <div data-ex-role="exhibit-facet" data-ex-expression=".centroid.label" data-ex-facet-label="Centro" data-ex-show-missing="false" data-ex-collection-i-d="col_ords" data-ex-scroll="true" data-ex-height="6em"></div>
+
+                <div data-ex-role="exhibit-facet" data-ex-expression=".centroid.tipo" data-ex-facet-label="Tipo de centro" data-ex-show-missing="false" data-ex-collection-i-d="col_ords" data-ex-scroll="true" data-ex-height="6em"></div>
+
+                <div data-ex-role="exhibit-facet"  data-ex-expression=".procesador" data-ex-collection-i-d="col_ords" data-ex-facet-label="Procesador" data-ex-show-missing="false"></div>
+
+
+            </div>
+
+            <div class="col-md-8" <div data-ex-role="exhibit-viewPanel">
+                <div data-ex-role="view" data-ex-view-class="Map" data-ex-label="Centros Vitalinux" data-ex-latlng=".centroid.latlon" data-ex-pin="true" data-ex-color-key=".centroid.tipo" data-ex-color-legend-label="Tipo de centro" data-ex-center="41.6561, -0.8773" data-ex-zoom="8" data-ex-map-height="600" data-ex-show-tool-box="true" data-ex-collection-i-d="col_ords" data-ex-border-opacity="0.5">
+
+
+
+
                 </div>
 
-                <div data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar por centro" data-ex-collection-i-d="col_centros"></div>
 
-                 <div data-ex-role="exhibit-facet" data-ex-expression=".label" data-ex-facet-label="Centro" data-ex-show-missing="false" data-ex-collection-i-d="col_centros" data-ex-scroll="true" data-ex-height="6em"></div>
-
-              <div data-ex-role="exhibit-facet" data-ex-expression=".tipo" data-ex-facet-label="Tipo de centro" data-ex-show-missing="false" data-ex-collection-i-d="col_centros" data-ex-scroll="true" data-ex-height="6em"></div>
-
-
-             </div>
-
-            <div class="col-md-8"
-
-
-                <div data-ex-role="exhibit-viewPanel">
-                    <div data-ex-role="view" data-ex-view-class="Map" data-ex-label="Mapa Innovación" data-ex-latlng=".latlon" data-ex-pin="true" data-ex-color-key=".tipo" data-ex-color-legend-label="Tipo de centro" data-ex-center="41.6561, -0.8773" data-ex-zoom="8" data-ex-map-height="600"  data-ex-show-tool-box="true" data-ex-collection-i-d="col_centros" data-ex-border-opacity="0.5"
-                    >
-
-
-
-
-                    </div>
-
-
-                    <div data-ex-role="view" data-ex-label="Listado Centros" data-ex-view-class="Tile" data-ex-collection-i-d="col_centros">
-                        <!--
+                <div data-ex-role="view" data-ex-label="Listado Centros" data-ex-view-class="Tile" data-ex-collection-i-d="col_centros">
+                    <!--
                         <div data-ex-role="lens" data-ex-item-types="centro" style="display: none">
                             <p>
                                 <strong data-ex-content="concat(.denom, ' ', .nombre)"></strong>
@@ -96,12 +88,12 @@
                             <p data-ex-content="!centro_id"></p>
                         </div>
 -->
-                    </div>
+                </div>
 
 
 
 
-                    <!--
+                <!--
         <div data-ex-role="lens" data-ex-item-types="centro"
          style="display: none">
          <h2 data-ex-content="concat(.denom, ' ', .nombre)"></h2>
@@ -112,67 +104,67 @@
     -->
 
 
-                    <div data-ex-role="lens" class="a-lens" style="display: none;" data-ex-item-types="centro">
-                        <div class="title">
-                            <span data-ex-content=".nombre"></span> <span data-ex-if-exists=".urlwi">
+                <div data-ex-role="lens" class="a-lens" style="display: none;" data-ex-item-types="centro">
+                    <div class="title">
+                        <span data-ex-content=".nombre"></span> <span data-ex-if-exists=".urlwi">
                             <a data-ex-href-content=".urlwi">Link</a></span>
 
-                        </div>
-
-                        <table class="details table table-striped">
-                            <tr>
-                                <td class="property">Centro:</td>
-                                <td>
-                                    <span data-ex-content=".tipo"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="property">Nivel:</td>
-                                <td>
-                                    <span data-ex-content=".denom"></span>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="property">Proyectos:</td>
-                                <td>
-                                    <span data-ex-content=".label!centro_id"></span>
-
-                                </td>
-                            </tr>
-                        </table>
                     </div>
 
+                    <table class="details table table-striped">
+                        <tr>
+                            <td class="property">Centro:</td>
+                            <td>
+                                <span data-ex-content=".tipo"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="property">Nivel:</td>
+                            <td>
+                                <span data-ex-content=".denom"></span>
 
-                    <div data-ex-role="lens" class="a-lens" style="display: none;" data-ex-item-types="proyecto_innova">
-                        <div class="title">
-                            <span data-ex-content=".label"></span>
-                        </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="property">Proyectos:</td>
+                            <td>
+                                <span data-ex-content=".label!centro_id"></span>
 
-                        <table class="details table table-striped">
-                            <tr>
-                                <td class="property">Año:</td>
-                                <td>
-                                    <span data-ex-content=".year"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="property">Nivel:</td>
-                                <td>
-                                    <span data-ex-content=".nivel"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="property">Valoración:</td>
-                                <td>
-                                    <span data-ex-content=".valoracion"></span>
 
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="property">Vídeo:</td>
-                                <td>
+                <div data-ex-role="lens" class="a-lens" style="display: none;" data-ex-item-types="proyecto_innova">
+                    <div class="title">
+                        <span data-ex-content=".label"></span>
+                    </div>
+
+                    <table class="details table table-striped">
+                        <tr>
+                            <td class="property">Año:</td>
+                            <td>
+                                <span data-ex-content=".year"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="property">Nivel:</td>
+                            <td>
+                                <span data-ex-content=".nivel"></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="property">Valoración:</td>
+                            <td>
+                                <span data-ex-content=".valoracion"></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="property">Vídeo:</td>
+                            <td>
                                 <!--
                                 <video id="video" controls="" preload="none" mediagroup="myVideoGroup" poster="http://media.w3.org/2010/05/sintel/poster.png" width="160" height="120">
       <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
@@ -182,7 +174,7 @@
       <p>Your user agent does not support the HTML5 Video element.</p>
     </video>
 -->
-<!--
+                                <!--
 <video  controls preload="true" width="240" >
     <source src="proyecto.webm" type="video/webm"/>
     <source src="proyecto.mp4" type="video/mp4"/>
@@ -190,33 +182,43 @@
 </video>
 -->
 
-                                    <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
-                                        <iframe width="320" height="240" src="//www.youtube.com/embed/bsGfbFO8kZw" frameborder="0" allowfullscreen="true"></iframe>
-                                    </div>
+                                <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                                    <iframe width="320" height="240" src="//www.youtube.com/embed/bsGfbFO8kZw" frameborder="0" allowfullscreen="true"></iframe>
+                                </div>
 
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="col-md-2">
-                <div data-ex-role="exhibit-facet" data-ex-facet-class="Cloud"  data-ex-expression=".label!centro_id.year" data-ex-facet-label="Año" data-ex-show-missing="false" data-ex-collection-i-d="col_centros" data-ex-scroll="true"  data-ex-height="3em"></div>
+
+            </div>
+            <div class="col-md-2">
+                <div data-ex-role="facet" data-ex-facet-class="NumericRange" data-ex-facet-label="Memoria (Mb.)" data-ex-expression=".memoria" data-ex-collection-i-d="col_ords" data-ex-horizontal="true" data-ex-histogram="false"></div>
+
+                <div data-ex-role="facet" data-ex-expression=".disco" data-ex-facet-class="NumericRange" data-ex-facet-label="Disco (Gb)" data-ex-collection-i-d="col_ords"></div>
+
+
 
             </div>
 
         </div>
     </div>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-1734348-11', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    ga('create', 'UA-1734348-11', 'auto');
+    ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
