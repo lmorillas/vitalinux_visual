@@ -1,0 +1,432 @@
+{
+ "items": [
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "A",
+   "type": "ord",
+   "id": 24
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 55
+  },
+  {
+   "memoria": 519090176,
+   "disco": 21474836480,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+   "type": "ord",
+   "id": 17
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 20
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 50
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 56
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 57
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 51
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 58
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 52
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 18
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 53
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 54
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 21
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 28
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 26
+  },
+  {
+   "memoria": 6442450944,
+   "disco": 500107862016,
+   "centroid": "CIFE2",
+   "procesador": "Intel(R) Core(TM) i5-3330S CPU @ 2.70GHz",
+   "type": "ord",
+   "id": 61
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 27
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 25
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 23
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 320072933376,
+   "centroid": "CIFE2",
+   "procesador": "AMD Athlon(tm) II X2 220 Processor",
+   "type": "ord",
+   "id": 22
+  },
+  {
+   "memoria": 2113536000,
+   "disco": 16106119168,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-2430M CPU @ 2.40GHz",
+   "type": "ord",
+   "id": 65
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 43
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 31
+  },
+  {
+   "memoria": 268435456,
+   "disco": 40020664320,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Pentium(R) 4 CPU 3.00GHz",
+   "type": "ord",
+   "id": 5
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 39
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 49
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 36
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 45
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 46
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 42
+  },
+  {
+   "memoria": 8589934592,
+   "disco": 1000204886016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+   "type": "ord",
+   "id": 4
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 59
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 32
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 38
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 40
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 35
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 30
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 33
+  },
+  {
+   "memoria": 519090176,
+   "disco": 12884901888,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+   "type": "ord",
+   "id": 68
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 41
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 48
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 44
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 37
+  },
+  {
+   "memoria": 519090176,
+   "disco": 8589934592,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+   "type": "ord",
+   "id": 63
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 34
+  },
+  {
+   "memoria": 4294967296,
+   "disco": 500107862016,
+   "centroid": "CATALINADEARAGON",
+   "procesador": "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz",
+   "type": "ord",
+   "id": 47
+  },
+  {
+   "memoria": 536870912,
+   "disco": 80026361856,
+   "centroid": "CAREI",
+   "procesador": "Intel(R) Pentium(R) 4 CPU 3.00GHz",
+   "type": "ord",
+   "id": 7
+  },
+  {
+   "memoria": 536870912,
+   "disco": 40007761920,
+   "centroid": "CAREI",
+   "procesador": "Genuine Intel(R) CPU           T2300  @ 1.66GHz",
+   "type": "ord",
+   "id": 64
+  },
+  {
+   "latlon": "41.689086,-0.878708",
+   "type": "centro",
+   "id": "CATALINADEARAGON",
+   "label": "CEIP Catalina de Aragon",
+   "tipo": "CEIP"
+  },
+  {
+   "latlon": "41.6560709,-0.8821945",
+   "type": "centro",
+   "id": "CIFE2",
+   "label": "CIFE Juan Lanuza",
+   "tipo": "CIFE"
+  },
+  {
+   "latlon": "41.654605,-0.906336",
+   "type": "centro",
+   "id": "CAREI",
+   "label": "CAREI",
+   "tipo": "CIFE"
+  }
+ ],
+ "types": {
+           "centro": {
+               "pluralLabel":  "centros"
+           },
+           "ord":{
+                "pluralLabel": "ordenadores",
+                "label":"ordenador"
+           }
+       },
+       "properties": {
+           "centroid": {
+               "valueType":    "centro",
+               "label": "en centro"
+           }
+       }
+}
